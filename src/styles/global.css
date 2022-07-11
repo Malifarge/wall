@@ -1,0 +1,40 @@
+
+
+.box{
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    border-radius: 5px;
+    padding: 30px;
+    width: 45%;
+    margin-bottom: 3%;
+}
+
+.row{
+    gap: 20px;
+}
+
+main{
+    margin: 20px 5%;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.profil{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.PP{
+    background: lightgray;
+    width: 128px;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
