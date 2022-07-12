@@ -9,8 +9,8 @@ class App extends React.Component {
       <main>
         <h1>The wall</h1>
         <section>
-        {users.map((user, key ) => (
-          <Card key={key} picture={user.picture} name={user.name} about={user.about} mail={user.email} address={user.address} tel={user.phone} register={user.registered}/>
+        {users.map((user) => (
+          <Card picture={user.picture} name={user.name} about={user.about} mail={user.email} address={user.address} tel={user.phone} register={user.registered}/>
     ))}
         </section>
         
