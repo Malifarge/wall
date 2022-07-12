@@ -13,8 +13,24 @@ class Card extends React.Component {
         </div>
 
         <div>
+            <h3>infos</h3>
+            <p>mail: {this.props.mail}</p>
+            <p>phone: {this.props.tel}</p>
+            <p>{this.props.address}</p>
+        </div>
+
+        <div>
+            <h3>About</h3>
             <p>{this.props.about}</p>
         </div>
+
+        <p style={{
+          textAlign: "right",
+          position: "relative",
+          bottom: "-40px",   
+          color: "rgba(128, 128, 128, 0.3)"  
+        }}>{this.props.register}</p>
+
       </article>
     )
   }

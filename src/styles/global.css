@@ -24,6 +24,8 @@ section{
 
 .profil{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     gap: 30px;
     margin-bottom: 30px;
@@ -37,4 +39,14 @@ section{
     justify-content: center;
     align-items: center;
     color: grey;
+}
+
+@media (max-width: 768px){
+    /* section{
+        flex-direction: column;
+    } */
+
+    .box{
+        width: 100%;
+    }
 }
